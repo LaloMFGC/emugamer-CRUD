@@ -5,7 +5,7 @@ from flask_marshmallow import Marshmallow
 
 app = Flask(__name__)
 
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://root@localhost/games'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://b936bb34e99664:50ed6488@us-cdbr-east-06.cleardb.net'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS']=False
 
 db = SQLAlchemy(app)
